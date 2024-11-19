@@ -94,7 +94,7 @@ void handleInput(bool& isRunning, bool& moveLeft, bool& moveRight, bool& moveUp,
         }
          if (moveDown) {
             rect.y += 5;
-            if (rect.y + 200 > 600)
+            if (rect.y + 200 > 600-1)
                 rect.y = 0;
         }
     }
